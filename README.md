@@ -2,7 +2,7 @@ Support Ticket Management System
 
 Technology: C# WinForms + ASP.NET Web API + SQL Server
 
-🔹 Project Overview
+* Project Overview
 
 This is a role-based Support Ticket Management System where:
 
@@ -14,12 +14,12 @@ Complete ticket history and comments are maintained
 
 The project follows a real-world enterprise workflow.
 
-🔹 User Roles
-👤 User
+ *User Roles
+ *User
 
-Login to system
+*Login to system
 
-Create new tickets
+*Create new tickets
 
 View own tickets
 
@@ -27,7 +27,7 @@ View ticket details and history
 
 Add comments on tickets
 
-👨‍💼 Admin
+* Admin
 
 View all tickets
 
@@ -43,8 +43,8 @@ Create, update, and delete users
 
 View dashboard summary
 
-🔹 Main Features
-🎫 Ticket Management
+*Main Features
+* Ticket Management
 
 Auto-generated Ticket Number
 
@@ -54,7 +54,7 @@ Status tracking
 
 Assigned admin tracking
 
-🕒 Ticket History
+* Ticket History
 
 Ticket creation log
 
@@ -64,7 +64,7 @@ Comment history
 
 Chronological order
 
-💬 Comments
+* Comments
 
 User & Admin comments
 
@@ -72,7 +72,7 @@ Stored with date and user info
 
 Visible in ticket details
 
-👥 User Management (Admin)
+* User Management (Admin)
 
 Add new users
 
@@ -82,7 +82,7 @@ Soft delete users
 
 Assign tickets only to active admins
 
-📊 Admin Dashboard
+* Admin Dashboard
 
 Total Tickets
 
@@ -90,7 +90,7 @@ Total Open Tickets
 
 Total Closed Tickets
 
-🔹 Technology Stack
+* Technology Stack
 Frontend
 
 C# WinForms (.NET)
@@ -115,7 +115,7 @@ Normalized tables
 
 History & audit tables
 
-🔹 Database Tables
+* Database Tables
 
 Users
 
@@ -125,7 +125,7 @@ TicketStatusHistory
 
 TicketComments
 
-🔹 Important Stored Procedures
+* Important Stored Procedures
 
 sp_CreateUser
 
@@ -141,7 +141,7 @@ sp_GetTicketHistory
 
 sp_GetTicketSummary
 
-🔹 Application Flow
+* Application Flow
 
 User/Admin logs in
 
@@ -155,7 +155,7 @@ History and comments are auto-maintained
 
 Dashboard shows live ticket summary
 
-🔹 Security Notes
+* Security Notes
 
 Role-based UI access
 
@@ -165,7 +165,7 @@ Soft delete used for users
 
 Password hashing can be added for production
 
-🔹 How to Run
+* How to Run
 
 Restore SQL Server database
 
@@ -177,7 +177,7 @@ Run WinForms application
 
 Login using Admin or User credentials
 
-🔹 Future Enhancements
+* Future Enhancements
 
 Password encryption
 
